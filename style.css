@@ -1,0 +1,231 @@
+:root{
+    --baby-blue: #7EC8E3;
+    --blue: #0000FF;
+    --navy-blue: #05445E;
+    --dark-blue: #050A30;
+    --photo-bg: #CDC9BE;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--dark-blue);
+    color: var(--baby-blue);
+}
+
+td > a{
+    color: white;
+}
+
+td > a:hover{
+    color: var(--baby-blue);
+}
+.nav-link:hover, .nav-link:focus {
+  color: var(--baby-blue) !important;
+}
+#navbar{
+    background: linear-gradient(to right, var(--dark-blue) , var(--navy-blue));
+    color: white !important;
+    justify-content: center;
+    max-height: 60vh !important;
+    min-height: 8vh !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+section, section #carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height:  90vh;
+}
+.stripe{
+    /*padding: 0;*/
+    width: 100%;
+    height: 90vh;
+}
+.row#cards{
+    /*padding: 0;*/
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 425px)  {
+    #carousel{
+        height: auto;
+    }
+}
+
+
+div.jumbotron{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, var(--baby-blue) , var(--dark-blue));
+    color: white;
+    padding: 0 200px;
+    margin: 0;
+    width: 100%;
+}
+#img-section, #text-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+div.profile{
+    background-color: var(--photo-bg) !important;
+}
+div.edu{
+    background-color: rgba(0,0,0,0.8);
+    height: 70%;
+}
+div.skill{
+    background-color: rgba(255,255,255,0.5);
+    color: var(--dark-blue);
+    height: 80%;
+}
+div.skill-img{
+    background-color: rgba(255,255,255,0.5);
+    height: 80%;
+}
+a > img{
+    padding: 0;
+    max-height: 50px;
+}
+div.home{
+    background-color: rgba(255,255,255,0.5);
+    color: var(--dark-blue);
+    height: 80%;
+}
+div.exp{
+    background-color: rgba(0,0,0,0.7);
+    height: 65%;
+    color: white !important;
+}
+/*Modal*/
+.card{
+    position: unset;
+    background-color: rgba(0,0,0,0.8);
+    min-height: 200px;
+}
+.modal-body, .modal-title{
+    color: var(--dark-blue);
+}
+.btn-secondary {
+  color: white;
+  background-color: var(--dark-blue);
+  border-color: transparent;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: var(--navy-blue);
+  border-color: transparent;
+}
+
+/**/
+.display-2{
+    font-size: 3em;
+}
+.left-entry {
+    animation: 1s ease-in slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+  from { transform: translateX(-200px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.right-entry {
+    animation: 1s ease-in slideInFromRight;
+}
+
+
+@keyframes slideInFromRight {
+  from { transform: translateX(200px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+#profile{
+    width: 100%;
+    clip-path: circle(30% at 50% 50%);
+}
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+}
+th.head{
+  color: var(--baby-blue);
+}
+
+th.tg-amwm:hover, td.tg-amwm:hover{
+  color: var(--baby-blue) !important;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th,
+.table-dark tbody + tbody {
+  border-color: transparent;
+}
+.modal-body ul{
+    list-style: none;
+}
+.modal-body ul>li{
+    padding-top: 10px;
+}
+/*Carousel*/
+
+.carousel-control-prev-icon {
+  background-image: url('img/left-indicator.png') !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url('img/right-indicator.png') !important;
+}
+/*Icons*/
+i{
+  color: white;
+  font-size: 3em !important;
+  padding: 30px;
+}
+i:hover{
+  color: var(--baby-blue);
+  transform: scale(1.5);
+}
+.badge-secondary{
+    color: white;
+    background-color: var(--dark-blue);
+}
+.alt-research{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}
+.web-img{
+    height: 120px;
+    width: 120px;
+    z-index: 4;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+}
+.web-img:hover{
+    transform: scale(1.5);
+    z-index: 5 !important;
+}
