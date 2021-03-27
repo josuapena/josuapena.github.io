@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="col-md-6 home right-entry" id="img-section">
-            <img id="profile" alt="Josua Pena Picture" src="https://josuapena.github.io/images/profile.jpg"/>
+            <img id="profile" alt="Josua Pena Picture" src="img/josh.jpg"/>
         </div>
     </div>
 </section>
