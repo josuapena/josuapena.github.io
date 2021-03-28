@@ -50,14 +50,18 @@
 </nav>
 
 <section id="columns" class="d-flex justify-content-around">
-    <div class="row stripe d-flex align-items-center" style="background-image: url('img/telecom.jpg');">
-        <div class="col-md-6 home left-entry" id="text-section">
-            <div class="display-2 text-center">
-                JOSUA PEÑA, Ph.D
+    <div class="container-fluid stripe d-flex align-items-center" style="background-image: url('img/telecom.jpg');">
+        <div class="row d-flex align-items-center justify-content-center w-100 h-100 mr-0">
+            <div class="col-12 home left-entry" id="text-section">
+                <div class="display-2 text-center">
+                    JOSUA PEÑA, Ph.D
+                </div>
             </div>
         </div>
-        <div class="col-md-6 home right-entry" id="img-section">
-            <img id="profile" alt="Josua Pena Picture" src="img/josh.jpg"/>
+        <div class="row d-flex align-items-center justify-content-center w-100 h-100 ml-0">
+            <div class="col-12 home right-entry" id="img-section">
+                <img id="profile" alt="Josua Pena Picture" src="img/josh.jpg"/>
+            </div>
         </div>
     </div>
 </section>
