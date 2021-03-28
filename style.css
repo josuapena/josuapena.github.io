@@ -158,8 +158,7 @@ div.exp{
 }
 
 #profile{
-    width: 100%;
-    clip-path: circle(30% at 50% 50%);
+    box-shadow: 10px 10px rgba(5, 10, 48, 0.4);
 }
 
 .table-dark,
