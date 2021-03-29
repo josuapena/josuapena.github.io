@@ -54,7 +54,7 @@
         <div class="row stripe m-0 d-flex justify-content-center align-items-center" style="background-image: url('img/telecom.jpg');">
             <div class="col-md-6 d-flex home right-entry align-items-center justify-content-center flex-column pb-0 pb-md-0">
                 <img class="img-fluid" alt="Josua Pena Picture" src="img/josh.jpg" id="profile" />
-                <div class="display-2 text-center text-sm-left" id="name1">
+                <div class="display-2 text-center text-sm-left pt-5" id="name1">
                     JOSUA PEÑA, Ph.D
                 </div>
             </div>
