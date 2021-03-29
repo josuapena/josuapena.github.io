@@ -23,7 +23,7 @@ td > a:hover{
     color: var(--baby-blue);
 }
 .nav-link:hover, .nav-link:focus {
-  color: var(--baby-blue) !important;
+    color: var(--baby-blue) !important;
 }
 #navbar{
     background: linear-gradient(to right, var(--dark-blue) , var(--navy-blue));
@@ -109,7 +109,7 @@ a > img{
 div.home{
     background-color: rgba(255,255,255,0.5);
     color: var(--dark-blue);
-    height: 80%;
+    height: 70%;
 }
 div.exp{
     background-color: rgba(0,0,0,0.7);
@@ -126,15 +126,15 @@ div.exp{
     color: var(--dark-blue);
 }
 .btn-secondary {
-  color: white;
-  background-color: var(--dark-blue);
-  border-color: transparent;
+    color: white;
+    background-color: var(--dark-blue);
+    border-color: transparent;
 }
 
 .btn-secondary:hover {
-  color: white;
-  background-color: var(--navy-blue);
-  border-color: transparent;
+    color: white;
+    background-color: var(--navy-blue);
+    border-color: transparent;
 }
 
 /**/
@@ -145,8 +145,8 @@ div.exp{
     animation: 1s ease-in slideInFromLeft;
 }
 @keyframes slideInFromLeft {
-  from { transform: translateX(-200px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
+    from { transform: translateX(-200px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
 }
 
 .right-entry {
@@ -155,34 +155,58 @@ div.exp{
 
 
 @keyframes slideInFromRight {
-  from { transform: translateX(200px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
+    from { transform: translateX(200px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@media (max-width: 576px) {
+    #name1{
+        visibility: visible;
+    }
+    #name0{
+        visibility: hidden;
+    }
+    div.home{
+        height: 100vh;
+    }
+}
+@media (min-width: 768px){
+    #name1{
+        display: none;
+    }
+    .img-fluid {
+        max-width: 50%;
+    }
 }
 
 #profile{
-    box-shadow: 10px 10px rgba(5, 10, 48, 0.4);
+    /*box-shadow: 10px 10px rgba(5, 10, 48, 0.4);*/
+    max-width: 60%;
+    box-shadow: -1px 10px 24px 6px rgba(5,10,48,0.74);
+    -webkit-box-shadow: -1px 10px 24px 6px rgba(5,10,48,0.74);
+    -moz-box-shadow: -1px 10px 24px 6px rgba(5,10,48,0.74);
 }
 
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: transparent;
-  color: white;
-  text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
 }
 th.head{
-  color: var(--baby-blue);
+    color: var(--baby-blue);
 }
 
 th.tg-amwm:hover, td.tg-amwm:hover{
-  color: var(--baby-blue) !important;
+    color: var(--baby-blue) !important;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-  border-color: transparent;
+    border-color: transparent;
 }
 .modal-body ul{
     list-style: none;
@@ -193,21 +217,21 @@ th.tg-amwm:hover, td.tg-amwm:hover{
 /*Carousel*/
 
 .carousel-control-prev-icon {
-  background-image: url('img/left-indicator.png') !important;
+    background-image: url('img/left-indicator.png') !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url('img/right-indicator.png') !important;
+    background-image: url('img/right-indicator.png') !important;
 }
 /*Icons*/
 i{
-  color: white;
-  font-size: 3em !important;
-  padding: 30px;
+    color: white;
+    font-size: 3em !important;
+    padding: 30px;
 }
 i:hover{
-  color: var(--baby-blue);
-  transform: scale(1.5);
+    color: var(--baby-blue);
+    transform: scale(1.5);
 }
 .badge-secondary{
     color: white;
