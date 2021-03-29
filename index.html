@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="row d-flex align-items-center justify-content-center w-100 h-100 ml-0">
-            <div class="col-12 home right-entry" id="img-section">
+            <div class="col-12 home right-entry mr-sm-2 mr-md-0" id="img-section">
                 <img class="img-fluid" id="profile" alt="Josua Pena Picture" src="img/josh.jpg"/>
             </div>
         </div>
